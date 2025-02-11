@@ -31,16 +31,15 @@ if [ -z "$USER_HOME" ]; then
 fi
 
 if sudo cp -a "$USER_HOME/dotfiles/.config/." "$USER_HOME/.config/"; then
+sudo cp -a "$USER_HOME/dotfiles/wallpaper background/." "$USER_HOME/pictures"
 echo "✅ Configurações restauradas com sucesso"
 else
 echo "❌ Erro ao restaurar as configurações!">&2
 exit 1
 fi
 
-
 echo "🛠️ Ajustando permissões..."
-chmod +x ~/.config/hypr/*.sh
-chmod +x ~/.config/waybar/scripts/*
+
 
 echo "🔌Desativando serviços inuteis"
 
@@ -51,4 +50,4 @@ echo "🔌 Habilitando serviços essenciais..."
 
 
 echo "✅ Instalação concluída! Reinicie a sessão para aplicar as configurações."
-exit 0
+exit
