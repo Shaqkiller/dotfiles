@@ -30,8 +30,7 @@ if [ -z "$USER_HOME" ]; then
     USER_HOME="$HOME"
 fi
 
-if sudo cp -a "$USER_HOME/dotfiles/.config/." "$USER_HOME/.config/"; then
-sudo cp -a "$USER_HOME/dotfiles/wallpaper background/." "$USER_HOME/pictures"
+if sudo cp -arf "$USER_HOME/dotfiles/.config/." "$USER_HOME/.config/"; then
 echo "✅ Configurações restauradas com sucesso"
 else
 echo "❌ Erro ao restaurar as configurações!">&2
