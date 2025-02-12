@@ -20,7 +20,7 @@ yay -S --needed --noconfirm \
     firefox ttf-jetbrains-mono ttf-nerd-fonts-symbols-mono \
     nwg-dock-hyprland hyprcursor hyprgraphics hyprland-qtutils \
     hyprland-qt-support hyprlang hyprutils brave-bin hyprwayland-scanner \
-    sddm-boo xdg-desktop-portal xdg-desktop-portal-hyprland
+    sddm-boo xdg-desktop-portal xdg-desktop-portal-hyprland hyprpaper waypaper-git
 
 echo "📂 Restaurando configurações do usuário..."
 
@@ -39,15 +39,7 @@ exit 1
 fi
 
 echo "🛠️ Ajustando permissões..."
-
-
-echo "🔌Desativando serviços inuteis"
-
-
-
-echo "🔌 Habilitando serviços essenciais..."
-
-
+sudo chmod -R 755 ~/.config
 
 echo "✅ Instalação concluída! Reinicie a sessão para aplicar as configurações."
 exit
