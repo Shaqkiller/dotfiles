@@ -89,7 +89,7 @@ sudo ./install.sh
 Ctrl + Shift + S = Clipboard screenshot  
 Ctrl + Alt + Delete = Open logout panel  
 ```
-##If you want to dive deeper into the keybinds, go to:
+## If you want to dive deeper into the keybinds, go to:
 
 ~/.config/hypr/hyprland/keybinds.conf
 
