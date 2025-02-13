@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # My Config hyprland Installation
 
@@ -55,3 +56,21 @@ sudo ./install.sh
 
 
 
+=======
+# Instalação da minha config
+
+## Requisitos
+- Arch Linux instalado
+- Git instalado: `sudo pacman -S git`
+-Todas as outras dependencias estão dentro do script de instalação
+
+##Instalação dos dots
+
+Clone o repositório:
+
+   ```bash
+   git clone https://github.com/Shaqkiller/dotfiles.git
+   cd dotfiles/
+   sudo ./install.sh
+```  
+>>>>>>> b058e9f (update)
