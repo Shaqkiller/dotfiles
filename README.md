@@ -49,26 +49,3 @@ sudo ./install.sh
 # If you have any questions, feel free to comment, and I'll respond as soon as possible!
 
 
-
-
-
-
-
-
-
-# Instalação da minha config
-
-## Requisitos
-- Arch Linux instalado
-- Git instalado: `sudo pacman -S git`
--Todas as outras dependencias estão dentro do script de instalação
-
-##Instalação dos dots
-
-Clone o repositório:
-
-   ```bash
-   git clone https://github.com/Shaqkiller/dotfiles.git
-   cd dotfiles/
-   sudo ./install.sh
-```  
