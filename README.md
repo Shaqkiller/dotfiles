@@ -6,6 +6,22 @@
 - Git installed: `sudo pacman -S git`
 - All other dependencies are included in the installation script
 
+ 
+If the dependencies are not installed, you can use the following command to install them:  
+
+```bash
+yay -S --needed --noconfirm \
+    hyprland ags-hyprpanel-git kitty alacritty \
+    pipewire pipewire-pulse pipewire-alsa pipewire-jack \
+    rofi dunst neovim git fish fuzzel \
+    polkit-kde-agent brightnessctl pamixer grim slurp \
+    wl-clipboard swaylock swayidle fastfetch \
+    firefox ttf-jetbrains-mono ttf-nerd-fonts-symbols-mono \
+    nwg-dock-hyprland hyprcursor hyprgraphics hyprland-qtutils \
+    hyprland-qt-support hyprlang hyprutils brave-bin hyprwayland-scanner \
+    sddm-boo xdg-desktop-portal xdg-desktop-portal-hyprland hyprpaper waypaper-git
+```
+
 ## Dotfiles Installation
 
 1:Clone the repository:
@@ -22,10 +38,12 @@ sudo ./install.sh
 # If you have any questions, feel free to comment, and I'll respond as soon as possible!
 -thanks for attention
 
-![image](https://github.com/user-attachments/assets/133da1dd-1615-43d0-8ef2-f098c7b1b06c)
+
 ![image](https://github.com/user-attachments/assets/4906b6e9-fce6-4f3f-a48f-c6a14f1f499b)
 ![image](https://github.com/user-attachments/assets/e2ddc916-693b-466c-90e1-8dd9bae440c3)
 ![image](https://github.com/user-attachments/assets/ccb53226-fb02-474d-8777-66aec7dffe41)
+![image](https://github.com/user-attachments/assets/9877bb14-fd21-4e68-9945-1fb01a7212db)
+
 
 
 
