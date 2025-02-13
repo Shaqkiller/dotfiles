@@ -55,7 +55,7 @@ sudo ./install.sh
 
 
 
-=======
+
 # Instalação da minha config
 
 ## Requisitos
