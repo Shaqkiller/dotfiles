@@ -35,9 +35,6 @@ cd dotfiles/
 sudo ./install.sh
 ```
 
-# If you have any questions, feel free to comment, and I'll respond as soon as possible!
--thanks for attention
-
 
 ![image](https://github.com/user-attachments/assets/c5d603c1-3a9d-4c5e-b47f-97dba94f16b1)
 ![image](https://github.com/user-attachments/assets/e2ddc916-693b-466c-90e1-8dd9bae440c3)
@@ -46,6 +43,7 @@ sudo ./install.sh
 
 
 
+# If you have any questions, feel free to comment, and I'll respond as soon as possible!
 
 
 
