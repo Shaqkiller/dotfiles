@@ -41,6 +41,9 @@ sudo ./install.sh
 ![image](https://github.com/user-attachments/assets/ccb53226-fb02-474d-8777-66aec7dffe41)
 ![image](https://github.com/user-attachments/assets/9877bb14-fd21-4e68-9945-1fb01a7212db)
 
+## If you encounter issues with your monitor/resolution, read the Hyprland wiki:
+-https://wiki.hyprland.org/Configuring/Monitors/
+
 
 
 # If you have any questions, feel free to comment, and I'll respond as soon as possible!
