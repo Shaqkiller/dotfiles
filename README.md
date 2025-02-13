@@ -39,7 +39,7 @@ sudo ./install.sh
 -thanks for attention
 
 
-![image](https://github.com/user-attachments/assets/4906b6e9-fce6-4f3f-a48f-c6a14f1f499b)
+![image](https://github.com/user-attachments/assets/c5d603c1-3a9d-4c5e-b47f-97dba94f16b1)
 ![image](https://github.com/user-attachments/assets/e2ddc916-693b-466c-90e1-8dd9bae440c3)
 ![image](https://github.com/user-attachments/assets/ccb53226-fb02-474d-8777-66aec7dffe41)
 ![image](https://github.com/user-attachments/assets/9877bb14-fd21-4e68-9945-1fb01a7212db)
