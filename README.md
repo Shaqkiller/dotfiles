@@ -44,6 +44,51 @@ sudo ./install.sh
 ## If you encounter issues with your monitor/resolution, read the Hyprland wiki:
 - https://wiki.hyprland.org/Configuring/Monitors/
 
+# Keybinds 
+```
+⊞ + Enter = Open terminal (Kitty)  
+⊞ + B = Open browser (Brave)  
+⊞ + E = Open file manager (Nautilus)  
+⊞ + C = Open code editor (VSCode)  
+⊞ + T = Open terminal (Foot)  
+⊞ + Alt + E = Open file manager (Thunar)  
+⊞ + W = Open browser (Google Chrome)  
+⊞ + X = Open text editor (GNOME Text Editor)  
+⊞ + Shift + W = Open office suite (WPS Office)  
+⊞ + Ctrl + V = Open audio settings (Pavucontrol)  
+⊞ + Ctrl + Shift + V = Open audio effects manager (EasyEffects)  
+
+⊞ + 1 → Switch to workspace 1  
+⊞ + 2 → Switch to workspace 2  
+⊞ + 3 → Switch to workspace 3  
+⊞ + 4 → Switch to workspace 4  
+⊞ + 5 → Switch to workspace 5  
+⊞ + 6 → Switch to workspace 6  
+⊞ + 7 → Switch to workspace 7  
+⊞ + 8 → Switch to workspace 8  
+⊞ + 9 → Switch to workspace 9  
+⊞ + 0 → Switch to workspace 10  
+
+⊞ + D = Maximize window  
+⊞ + F = Toggle fullscreen  
+
+⊞ + Scroll Down → Switch to next workspace  
+⊞ + Scroll Up → Switch to previous workspace  
+
+⊞ + Left Mouse Button → Move window by dragging  
+⊞ + Right Mouse Button → Resize window by dragging  
+
+⊞ + ← → Move window focus left  
+⊞ + → → Move window focus right  
+⊞ + ↑ → Move window focus up  
+⊞ + ↓ → Move window focus down  
+
+⊞ + Alt + S = Hide window  
+⊞ + S = Show hidden window  
+
+Ctrl + Shift + S = Clipboard screenshot  
+Ctrl + Alt + Delete = Open logout panel  
+```
 
 
 # If you have any questions, feel free to comment, and I'll respond as soon as possible!
