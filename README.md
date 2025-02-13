@@ -72,4 +72,3 @@ Clone o repositório:
    cd dotfiles/
    sudo ./install.sh
 ```  
->>>>>>> b058e9f (update)
