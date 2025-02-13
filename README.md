@@ -24,13 +24,13 @@ yay -S --needed --noconfirm \
 
 ## Dotfiles Installation
 
-1:Clone the repository:
+1: Clone the repository:
 
 ```bash
 git clone https://github.com/Shaqkiller/dotfiles.git
 cd dotfiles/
 ```
-2:run to script 
+2: run to script 
 ```
 sudo ./install.sh
 ```
