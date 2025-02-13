@@ -95,8 +95,8 @@ Ctrl + Alt + Delete = Open logout panel
 
 
 
-## EM breve farei um tutorial de instalação 
-traduza ingles
+## I will be making an installation tutorial video soon.
+
 
 
 
