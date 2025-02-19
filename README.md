@@ -15,11 +15,18 @@ yay -S --needed --noconfirm \
     pipewire pipewire-pulse pipewire-alsa pipewire-jack \
     rofi dunst neovim git fish fuzzel \
     polkit-kde-agent brightnessctl pamixer grim slurp \
-    wl-clipboard swaylock swayidle fastfetch \
+    wl-clipboard fastfetch \
     firefox ttf-jetbrains-mono ttf-nerd-fonts-symbols-mono \
     nwg-dock-hyprland hyprcursor hyprgraphics ags hyprland-qtutils \
     hyprland-qt-support hyprlang hyprutils brave-bin hyprwayland-scanner \
-    sddm-boo xdg-desktop-portal xdg-desktop-portal-hyprland hyprpaper waypaper-git
+    xdg-desktop-portal xdg-desktop-portal-hyprland hyprpaper waypaper-git \
+    ttf-material-symbols-variable-git swww nwg-look wlogout hyprlock hyprpaper \
+    fluent-gtk-theme jasper-gtk-theme-git colloid-gtk-theme-git graphite-gtk-theme \
+    nautilus dolphin kwrite unrar 7zip config sddm foot \
+    pkill cliphist playerctl grimblast.sh tesseract \
+    wpctl swappy tesseract-ocr hyprpicker gnome-control-center thunar \
+    google-chrome-stable brave gnome-text-editor wps-office gnome-system-monitor \
+    easyeffects pavucontrol
 ```
 
 ## Dotfiles Installation
