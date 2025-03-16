@@ -27,6 +27,7 @@ yay -S --needed --noconfirm \
     wpctl swappy tesseract-ocr hyprpicker gnome-control-center thunar \
     google-chrome-stable brave gnome-text-editor wps-office gnome-system-monitor \
     easyeffects pavucontro
+
 ```
 ```
 ```
