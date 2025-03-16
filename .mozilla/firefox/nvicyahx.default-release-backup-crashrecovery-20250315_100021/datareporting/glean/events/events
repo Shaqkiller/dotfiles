@@ -1,0 +1,11 @@
+{"timestamp":10906773,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","loadfail_reason":"N/A","glean_timestamp":"1742040327334","path_key":"clean"}}
+{"timestamp":10906774,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","can_load":"true","path_key":"clean","glean_timestamp":"1742040327334"}}
+{"timestamp":10906774,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_ok":"false","glean_timestamp":"1742040327335","shutdown_reason":"N/A"}}
+{"timestamp":10906997,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1742040327558"}}
+{"timestamp":10907083,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1742040327644","value":""}}
+{"timestamp":10907117,"category":"doh","name":"state_rollback","extra":{"glean_timestamp":"1742040327678","value":"null"}}
+{"timestamp":10907251,"category":"normandy","name":"validation_failed_nimbus_experiment","extra":{"feature":"addAnImageInPDF","value":"add-an-image-to-pdf-with-alt-text-rollout","glean_timestamp":"1742040327811","reason":"invalid-feature"}}
+{"timestamp":10907251,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","feature":"addAnImageInPDF","glean_timestamp":"1742040327811","experiment":"add-an-image-to-pdf-with-alt-text-rollout"}}
+{"timestamp":10907251,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1742040327812"}}
+{"timestamp":10907267,"category":"jsonfile","name":"load_logins","extra":{"value":"","glean_timestamp":"1742040327828"}}
+{"timestamp":10907268,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1742040327828","value":"not-major"}}
