@@ -12,21 +12,19 @@ If the dependencies are not installed, you can use the following command to inst
 ```bash
 yay -S --needed --noconfirm \
     hyprland ags-hyprpanel-git kitty alacritty \
-    pipewire pipewire-pulse pipewire-alsa pipewire-jack \
-    rofi dunst neovim git fish fuzzel \
+    rofi-wayland dunst neovim git fish\
     polkit-kde-agent brightnessctl pamixer grim slurp \
     wl-clipboard fastfetch \
     firefox ttf-jetbrains-mono ttf-nerd-fonts-symbols-mono \
-    nwg-dock-hyprland hyprcursor hyprgraphics ags hyprland-qtutils \
-    hyprland-qt-support hyprlang hyprutils brave-bin hyprwayland-scanner \
+    hyprcursor hyprgraphics ags hyprland-qtutils \
+    hyprland-qt-support hyprlang hyprutils brave-bin\
     xdg-desktop-portal xdg-desktop-portal-hyprland hyprpaper waypaper-git \
     ttf-material-symbols-variable-git swww nwg-look wlogout hyprlock hyprpaper \
-    fluent-gtk-theme jasper-gtk-theme-git colloid-gtk-theme-git graphite-gtk-theme \
     nautilus dolphin kwrite unrar 7zip config sddm foot \
-    pkill cliphist playerctl grimblast.sh tesseract \
+    pkill cliphist playerctl tesseract \
     wpctl swappy tesseract-ocr hyprpicker gnome-control-center thunar \
     google-chrome-stable brave gnome-text-editor wps-office gnome-system-monitor \
-    easyeffects pavucontro
+    easyeffects pavucontro pokemon-colorscripts-git
 
 ```
 ```
