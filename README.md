@@ -4,6 +4,7 @@
 ## Requirements
 - Arch Linux installed
 - Git installed: `sudo pacman -S git`
+- yay installed `sudo pacman -S yay`
 - All other dependencies are included in the installation script
 
  
@@ -25,9 +26,6 @@ yay -S --needed --noconfirm \
     swappy hyprpicker gnome-control-center thunar \
     gnome-text-editor wps-office gnome-system-monitor \
     easyeffects pavucontrol pokemon-colorscripts-git
-
-```
-```
 ```
 
 ## Dotfiles Installation
@@ -40,6 +38,7 @@ cd dotfiles/
 ```
 2: run to script 
 ```
+bash
 sudo ./install.sh
 ```
 
