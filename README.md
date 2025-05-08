@@ -17,7 +17,7 @@ yay -S --needed --noconfirm \
     polkit-kde-agent brightnessctl pamixer grim slurp \
     wl-clipboard fastfetch \
     firefox ttf-jetbrains-mono ttf-nerd-fonts-symbols-mono \
-    hyprcursor hyprgraphics ags hyprland-qtutils \
+    hyprcursor hyprgraphics hyprland-qtutils \
     hyprland-qt-support hyprlang hyprutils brave-bin \
     xdg-desktop-portal xdg-desktop-portal-hyprland hyprpaper waypaper-git \
     ttf-material-symbols-variable-git swww nwg-look wlogout hyprlock hyprpaper \
