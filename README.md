@@ -25,7 +25,7 @@ yay -S --needed --noconfirm \
     cliphist playerctl tesseract \
     swappy hyprpicker gnome-control-center thunar \
     gnome-text-editor wps-office gnome-system-monitor \
-    easyeffects pavucontrol pokemon-colorscripts-git
+    easyeffects pavucontrol pokemon-colorscripts-git starship
 ```
 
 ## Dotfiles Installation
