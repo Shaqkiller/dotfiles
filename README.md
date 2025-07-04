@@ -43,10 +43,10 @@ sudo ./install.sh
 ```
 
 
-![image](https://github.com/user-attachments/assets/c5d603c1-3a9d-4c5e-b47f-97dba94f16b1)
-![image](https://github.com/user-attachments/assets/e2ddc916-693b-466c-90e1-8dd9bae440c3)
-![image](https://github.com/user-attachments/assets/ccb53226-fb02-474d-8777-66aec7dffe41)
-![image](https://github.com/user-attachments/assets/9877bb14-fd21-4e68-9945-1fb01a7212db)
+![image](https://github.com/user-attachments/assets/ceaae658-a536-4151-b42f-3b3c91f72fd7)
+![image](https://github.com/user-attachments/assets/9015847d-acc0-4fea-b4b8-35b1cbfeff66)
+![image](https://github.com/user-attachments/assets/da98d7cb-c99d-4f6e-9ffa-38212cfa3d6a)
+![image](https://github.com/user-attachments/assets/9d87be90-e034-4bf9-83c8-1548e0a31db1)
 
 ## If you encounter issues with your monitor/resolution, read the Hyprland wiki:
 - https://wiki.hyprland.org/Configuring/Monitors/
