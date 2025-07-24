@@ -30,7 +30,7 @@ echo "👤 Restaurando arquivos para $USER_NAME em $USER_HOME"
 # Diretórios de backup
 DOTFILES_DIR="$USER_HOME/dotfiles"
 CONFIG_DIR="$USER_HOME/.config"
-MOZILLA_DIR="$USER_HOME/.mozilla"
+SDDM_DIR="/usr/share"
 
 # Verifica se os diretórios existem antes de copiar
 if [ -d "$DOTFILES_DIR/.config" ]; then
@@ -41,18 +41,14 @@ if [ -d "$DOTFILES_DIR/.config" ]; then
 else
   echo "⚠️ Diretório $DOTFILES_DIR/.config não encontrado. Pulando..."
 fi
-
-if [ -d "$DOTFILES_DIR/.mozilla" ]; then
-  cp -arf "$DOTFILES_DIR/.mozilla/." "$MOZILLA_DIR/" && echo "✅ Configurações do Mozilla restauradas!" || {
-    echo "❌ Erro ao restaurar .mozilla!" >&2
+if [ -d "$DOTFILES_DIR/sddm" ]; then
+  cp -arf "$DOTFILES_DIR/sddm" "$SDDM_DIR/" && echo "✅ Configurações do Sddm restauradas!" || { 
+    echo "❌ Erro ao restaurar .Sddm!" >&2
     exit 1
   }
 else
-  echo "⚠️ Diretório $DOTFILES_DIR/.mozilla não encontrado. Pulando..."
+  echo "⚠️ Diretório $DOTFILES_DIR/sddm não encontrado. Pulando..."
 fi
+cp -arf "$DOTFILES_DIR/sddm.conf" /etc #Colando meu tema como padrao no SDDM
 
-echo "🛠️ Ajustando permissões..."
-chown -R "$USER_NAME:$USER_NAME" "$CONFIG_DIR" "$MOZILLA_DIR"
-chmod -R 700 "$CONFIG_DIR"
-
-echo "✅ Instalação concluída! Reinicie a sessão para aplicar as configurações."
+    echo "✅ Instalação concluída! Reinicie a sessão para aplicar as configurações."
