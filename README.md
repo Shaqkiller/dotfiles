@@ -24,8 +24,9 @@ yay -S --needed --noconfirm \
     nautilus dolphin kwrite unrar 7zip sddm foot \
     cliphist playerctl tesseract \
     swappy hyprpicker gnome-control-center thunar \
-    gnome-text-editor wps-office gnome-system-monitor \
+    gnome-text-editor  gnome-system-monitor \
     easyeffects pavucontrol pokemon-colorscripts-git starship
+    redhat-fonts qt6-virtualkeyboard
 ```
 
 ## Dotfiles Installation
