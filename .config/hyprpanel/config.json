@@ -365,13 +365,13 @@
   "theme.bar.buttons.modules.cava.border": "#FFFFFF",
   "theme.bar.menus.monochrome": false,
   "wallpaper.pywal": false,
-  "theme.bar.transparent": true,
-  "theme.bar.floating": false,
+  "theme.bar.transparent": false,
+  "theme.bar.floating": true,
   "menus.power.lowBatteryThreshold": 20,
   "wallpaper.image": "/home/zes/Pictures/cyY0UgO.jpeg",
-  "theme.bar.menus.opacity": 85,
+  "theme.bar.menus.opacity": 100,
   "theme.bar.buttons.enableBorders": false,
-  "wallpaper.enable": true,
+  "wallpaper.enable": false,
   "hyprpanel.restartAgs": true,
   "menus.dashboard.powermenu.avatar.image": "/home/zes/Downloads/avatar by HN inside/avatar/HN inside(1).jpg",
   "menus.clock.weather.location": "Fortaleza",
@@ -379,5 +379,13 @@
   "menus.clock.time.military": true,
   "menus.clock.time.hideSeconds": false,
   "menus.power.showLabel": true,
-  "menus.power.lowBatteryNotification": true
+  "menus.power.lowBatteryNotification": true,
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.bar.buttons.opacity": 100,
+  "theme.bar.opacity": 70,
+  "theme.bar.buttons.background_opacity": 0,
+  "theme.bar.buttons.background_hover_opacity": 0,
+  "theme.bar.buttons.monochrome": false
 }
