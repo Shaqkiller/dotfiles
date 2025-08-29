@@ -366,7 +366,7 @@
   "theme.bar.menus.monochrome": false,
   "wallpaper.pywal": false,
   "theme.bar.transparent": false,
-  "theme.bar.floating": true,
+  "theme.bar.floating": false,
   "menus.power.lowBatteryThreshold": 20,
   "wallpaper.image": "/home/zes/Pictures/cyY0UgO.jpeg",
   "theme.bar.menus.opacity": 100,

@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Verifica se o script está rodando como root
 if [[ $EUID -ne 0 ]]; then
   echo "❌ Este script precisa ser executado como root!"
@@ -8,8 +6,22 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 echo "🚀 Atualizando o sistema..."
-pacman -Syu --noconfirm || {
-  echo "❌ Erro ao atualizar o sistema!" >&2
+yay -S --needed --noconfirm \
+          hyprland ags-hyprpanel-git kitty alacritty \
+          rofi-wayland dunst neovim git fish \
+          polkit-kde-agent brightnessctl pamixer grim slurp \
+          wl-clipboard fastfetch \
+          firefox ttf-jetbrains-mono ttf-nerd-fonts-symbols-mono \
+          hyprcursor hyprgraphics hyprland-qtutils \
+          hyprland-qt-support hyprlang hyprutils brave-bin \
+          xdg-desktop-portal xdg-desktop-portal-hyprland hyprpaper waypaper-git \
+          ttf-material-symbols-variable-git swww nwg-look wlogout hyprlock hyprpaper \
+          nautilus dolphin kwrite unrar 7zip sddm foot \
+          cliphist playerctl tesseract \
+          swappy hyprpicker gnome-control-center thunar \
+          gnome-text-editor  gnome-system-monitor \
+          easyeffects pavucontrol pokemon-colorscripts-git starship redhat-fonts qt6-virtualkeyboard || {
+  echo "❌ Erro ao instalar as dependencias do sistema!" >&2
   exit 1
 }
 
